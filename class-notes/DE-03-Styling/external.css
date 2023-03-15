@@ -1,0 +1,37 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+p{
+    color:blue;
+}
+/* #par{
+    color:aqua;
+} */
+
+.center p span {
+    background-color: red;
+}
+
+
+/* ******************* */
+
+.center p{
+    color:coral;
+}
+
+/* üstteki yazım center çocuk ve torunu olan p leri etkiler */
+.center > p{
+    background-color: yellow;
+}
+/* üstteki yazım center ın sadece çocuğu olan p leri etkiler */
+
+.secici ~ a {
+    background-color: orange;
+}
+/* üstteki yazım secici div inden sonraki tüm a lar */
+
+.secici + a {
+   background-color: lightblue; 
+}
+/* üstteki yazım secici div inden sonraki ilk a */
