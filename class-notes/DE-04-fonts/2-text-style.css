@@ -1,0 +1,68 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  /* background-image: url("../assets/winter2.webp"); */
+}
+
+h1 {
+  color: hsl(231, 71%, 44%);
+  /* hue:renk tonu, saturation:rengin yoğunluğu belirginliği, lightness:hafiflik ışık */
+  color: rgba(208, 46, 46, 0.737);
+
+  /* r: red, g:green, b:blue. isteğe bağlı a :alpha=saydamlık kullanılabilir */
+  /* color: #f63232;  */
+  /* red yerine üstteki hex kodunu kullanabiliriz */
+  text-decoration: line-through;
+  text-decoration: underline;
+  text-decoration: overline;
+  /* line-through=yazının üstünü çizmek,underline=altını, overline=üst tarafını */
+
+  /* dashed=kesik çizgi,dotted=nokta nokta, double=iki çizgi,wavy=dalga  */
+  text-decoration-style: dashed;
+  text-decoration-style: dotted;
+  text-decoration-style: double;
+  text-decoration-style: wavy;
+
+  text-decoration-color: green;
+
+  text-decoration: blue underline overline 10px wavy;
+
+  text-align: center;
+
+  text-transform: uppercase;
+  text-transform: lowercase;
+  text-transform: capitalize;
+
+  word-spacing: 50px;
+  /* iki kelime arası boşluk */
+
+  letter-spacing: 5px;
+  /* harfler arası boşluk */
+}
+
+p {
+  text-indent: 20px;
+  /* paragraf başı boşluk */
+  line-height: 30px;
+  /* satırlararası boşluk */
+}
+
+li {
+  background-color: lightgreen;
+}
+
+ul {
+  list-style-position: inside;
+  /* ul nin noktalarını içeri iter */
+
+  /* image ile yaparsak type ile yapılana göre daha baskın olur */
+  list-style-image: url(../assets/img/arrow-right-long-solid.svg);
+
+  list-style-type: "💙";
+  list-style-type: disc;
+}
+
+h3{
+text-align: right;
+
+direction:rtl;
+}

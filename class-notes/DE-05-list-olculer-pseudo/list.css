@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+
+*{
+    font-family: 'Climate Crisis', cursive;
+}
+
+
+.aktif{
+    background-color: lightgreen;
+}
+li{
+    background-color: gray;
+    color:red;
+}
+/* li lere verilen color dan a etkilenmez, a özel ilgi ister */
+ul{
+    list-style-position:inside;
+    list-style-type:"🌵"
+}
+
+a{
+    color:orange;
+    font-size:25px;
+    text-decoration:none;
+}
+.aktif:hover{
+    background-color: purple;;
+}
+
+/* li lerin üzerine mouse ile gelindiğinde */
+li:hover{
+
+background-color: red;
+font-size:50px;
+/* color:purple; */
+}
+
+a:hover{
+    color:pink;
+}

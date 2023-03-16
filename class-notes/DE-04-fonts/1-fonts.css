@@ -1,0 +1,28 @@
+
+/* istersek css de teşekkür de edebiliriz */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+
+@import url(https://fonts.googleapis.com/css?family=Silkscreen:regular,700);
+
+
+.birinci{
+    font-family: 'Rubik Distressed', cursive;
+    background-color: lightgray;
+  
+    
+}
+.menu{
+    font-size:50px;
+    width:250px;
+      text-align: center;  
+      /*!!!!!!!!!!!!!!!!!!!! text align center ile inline lari (SPAN/IMG) ve divlerin icindeki YAZILARI/TEXTLERI ortalayabiliriz Button da ortalanir
+      /* !! bir div veya p etiketlerini textalign ile hareket ettiremezsiniz  */ 
+    }
+.aktif{
+    background-color: aqua;;
+    font-family:"Silkscreen"
+}
+
+div{
+    background-color: pink;
+}
