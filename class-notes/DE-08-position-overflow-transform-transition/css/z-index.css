@@ -1,0 +1,34 @@
+.box{
+    width: 7rem;
+    height: 7rem;
+    border:1px solid black;
+}
+
+/* z-index kullanmak için mutlaka bir position özelliği vermemiz gerekir */
+/* default değeri 0 dır */
+.box1{ 
+    background-color: coral;
+    position: absolute;
+    left:50px;
+    z-index:-1;
+}
+.box2{ 
+    background-color: rgb(15, 113, 143);
+    position: absolute;
+    left:70px;
+    top:50px;
+    z-index:-2;
+}
+.box3{ 
+    background-color: rgb(235, 80, 255);
+    position: absolute;
+    left:100px;
+    top:100px;
+    z-index:500;
+}
+.box4{ 
+    background-color: rgb(18, 207, 69);
+    position: absolute;
+    z-index:-4;
+
+}
