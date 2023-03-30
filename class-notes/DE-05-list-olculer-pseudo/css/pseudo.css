@@ -1,0 +1,95 @@
+table {
+  width: 100%;
+  height: 300px;
+  font-size: 30px;
+  /* border-collapse:collapse; */
+}
+
+ tr:nth-child(odd) {
+  background-color: pink;
+  color: yellow;
+}
+
+ tr:nth-child(3) {
+  background-color: aqua;
+}
+
+td:first-child {
+  color: red;
+  
+  /* no sütunu */
+  font-weight: 900;
+}
+
+td:last-child {
+  font-style: italic;
+
+  font-size: 50px;
+}
+
+tr::before,
+tr::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  /* content: "😆"; */
+  content: "\1F606";
+  color: red;
+  font-size: 40px;
+
+  /* content kısmına emoji yapıştırabiliriz ama bazı emojiler stil kabul etmiyor,   https://symbl.cc/en/collections/top-emoji/ adresinden emojinin css kod unu alıp gelebiliriz */
+}
+
+tr:nth-child(3)::after,tr:nth-child(3)::before{
+ font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "🌵";
+  /* content: "\1F339"; */
+color:yellow;
+
+}
+
+td:hover{
+    background-color:lightgreen;
+    color:purple;
+}
+tr:hover{
+    background-color:gray;
+    color:blue;
+    font-size: 30px;
+}
+
+/* td lere verilen stilleri tr:hover ile ezemezsiniz, ama tr lere verilen stilleri td:hover ile ezebilirsiniz */
+
+
+
+
+button {
+  cursor: pointer;
+}
+
+.fa-solid {
+  font-size: 40px;
+}
+
+.icon {
+  color: orange;
+}
+
+a{
+    color:red;
+}
+
+/* daha önceden ziyaret edilmiş olduğunu gösterir */
+a:visited{
+    color:orange;
+}
+
+/* mouse da tuşa bastığım an */
+a:active{
+    color:cyan;
+}
+a:hover{
+
+    font-size:50px;
+    background-color: salmon;
+}
